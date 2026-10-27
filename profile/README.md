@@ -18,7 +18,7 @@ its `manifests/malachite.xml` lists every repository and what each one changes.
 
 ## Building a ROM from these trees
 
-Read [BUILDING.md](https://github.com/malachite-project/.github/blob/main/BUILDING.md):
+Read [BUILDING.md](https://github.com/malachite-project/android_device_xiaomi_malachite/blob/lineage-23.2/BUILDING.md):
 how to fork, keep your ROM in sync with our fixes, and give every build a source ID that
 traces it to the exact commits it was made from.
 

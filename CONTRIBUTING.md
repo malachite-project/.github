@@ -22,7 +22,7 @@ Without it we can't tell which fixes your build has. Also attach a log of the pr
 ### Before you start
 
 - Base your work on our `lineage-23.2` branch, in a fork made with GitHub's Fork button
-  (see [BUILDING.md](BUILDING.md#forking)). Pull requests from a ROM branch carry ROM
+  (see [BUILDING.md](https://github.com/malachite-project/android_device_xiaomi_malachite/blob/lineage-23.2/BUILDING.md#forking)). Pull requests from a ROM branch carry ROM
   changes with them and can't be merged.
 - For a big change, open an issue first so we can agree on the approach.
 
