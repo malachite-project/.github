@@ -21,15 +21,17 @@ Without it we can't tell which fixes your build has. Also attach a log of the pr
 
 ### Before you start
 
-- Base your work on our `lineage-23.2` branch, in a fork made with GitHub's Fork button
-  (see [BUILDING.md](https://github.com/malachite-project/android_device_xiaomi_malachite/blob/lineage-23.2/BUILDING.md#forking)). Pull requests from a ROM branch carry ROM
-  changes with them and can't be merged.
+- Base your work on our `lineage-24.0` branch, in a fork made with GitHub's Fork button
+  (see [BUILDING.md](https://github.com/malachite-project/android_device_xiaomi_malachite/blob/lineage-24.0/BUILDING.md#forking)). Pull requests from a ROM branch carry ROM
+  changes with them and can't be merged. We bring every accepted fix to our crDroid and
+  Evolution X branches ourselves; a fix that only concerns one of those ROMs goes to
+  its branch (`crdroid-17.0` or `evolutionx-24.0`) instead.
 - For a big change, open an issue first so we can agree on the approach.
 
 ### Making the change
 
 ```
-git fetch https://github.com/malachite-project/<repository> lineage-23.2
+git fetch https://github.com/malachite-project/<repository> lineage-24.0
 git checkout -b fix/<short-name> FETCH_HEAD
 # make the change, build, test on the phone
 git commit
@@ -72,8 +74,9 @@ follows it.
 ### Review
 
 We review every pull request, though it can take some time. We may ask for changes;
-push them to the same branch. Accepted pull requests are merged into `lineage-23.2`
-after testing, and included in the next release.
+push them to the same branch. Accepted pull requests are merged into `lineage-24.0`
+after a successful build, brought to the crDroid and Evolution X branches, and included
+in the next release.
 
 ## Conduct
 
